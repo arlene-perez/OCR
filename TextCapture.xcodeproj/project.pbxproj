@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07AC1541216D734500818F81 /* DeepLinkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AC1540216D734500818F81 /* DeepLinkManager.swift */; };
+		07AC1543216D74CE00818F81 /* DeepLinkType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AC1542216D74CE00818F81 /* DeepLinkType.swift */; };
+		07AC1548216D75A800818F81 /* AbbyyRtrSdk.license in Resources */ = {isa = PBXBuildFile; fileRef = 07AC1546216D75A800818F81 /* AbbyyRtrSdk.license */; };
+		07AC1549216D75A800818F81 /* LicenseAgreement.html in Resources */ = {isa = PBXBuildFile; fileRef = 07AC1547216D75A800818F81 /* LicenseAgreement.html */; };
 		43BC85B91DA31E2800FC04B0 /* RTRAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BC85B81DA31E2800FC04B0 /* RTRAppDelegate.swift */; };
 		43BC85BB1DA31E2800FC04B0 /* RTRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BC85BA1DA31E2800FC04B0 /* RTRViewController.swift */; };
 		43BC85C01DA31E2800FC04B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43BC85BF1DA31E2800FC04B0 /* Assets.xcassets */; };
 		43BC85CC1DA3226D00FC04B0 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 43BC85CB1DA3226D00FC04B0 /* libc++.tbd */; };
 		43BC85D01DA326F200FC04B0 /* RTRSelectedAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BC85CF1DA326F200FC04B0 /* RTRSelectedAreaView.swift */; };
 		43BC85DD1DA4330200FC04B0 /* RTRHexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BC85DC1DA4330200FC04B0 /* RTRHexColor.swift */; };
-		67AC53712168FCF500690727 /* LicenseAgreement.html in Resources */ = {isa = PBXBuildFile; fileRef = 67AC53702168FCF400690727 /* LicenseAgreement.html */; };
 		67AC53772168FD1E00690727 /* AbbyyRtrSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67AC53762168FD1E00690727 /* AbbyyRtrSDK.framework */; };
 		67AC537B216920C900690727 /* LinkDeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AC5378216920C800690727 /* LinkDeviceViewController.swift */; };
 		67AC537C216920C900690727 /* CodeConfirmation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67AC5379216920C800690727 /* CodeConfirmation.storyboard */; };
@@ -71,6 +74,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		07AC1540216D734500818F81 /* DeepLinkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkManager.swift; sourceTree = "<group>"; };
+		07AC1542216D74CE00818F81 /* DeepLinkType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkType.swift; sourceTree = "<group>"; };
+		07AC1546216D75A800818F81 /* AbbyyRtrSdk.license */ = {isa = PBXFileReference; lastKnownFileType = file; path = AbbyyRtrSdk.license; sourceTree = "<group>"; };
+		07AC1547216D75A800818F81 /* LicenseAgreement.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = LicenseAgreement.html; sourceTree = "<group>"; };
 		43BC85B51DA31E2800FC04B0 /* TextCapture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextCapture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43BC85B81DA31E2800FC04B0 /* RTRAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTRAppDelegate.swift; sourceTree = "<group>"; };
 		43BC85BA1DA31E2800FC04B0 /* RTRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTRViewController.swift; sourceTree = "<group>"; };
@@ -80,8 +87,6 @@
 		43BC85CF1DA326F200FC04B0 /* RTRSelectedAreaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTRSelectedAreaView.swift; sourceTree = "<group>"; };
 		43BC85D91DA3509E00FC04B0 /* RtrSamples-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RtrSamples-Bridging-Header.h"; sourceTree = "<group>"; };
 		43BC85DC1DA4330200FC04B0 /* RTRHexColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTRHexColor.swift; sourceTree = "<group>"; };
-		67AC536F2168FCE200690727 /* AbbyyRtrSdk.license */ = {isa = PBXFileReference; lastKnownFileType = file; path = AbbyyRtrSdk.license; sourceTree = "<group>"; };
-		67AC53702168FCF400690727 /* LicenseAgreement.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = LicenseAgreement.html; sourceTree = "<group>"; };
 		67AC53722168FD0D00690727 /* dictionaries */ = {isa = PBXFileReference; lastKnownFileType = folder; path = dictionaries; sourceTree = "<group>"; };
 		67AC53732168FD0D00690727 /* patterns */ = {isa = PBXFileReference; lastKnownFileType = folder; path = patterns; sourceTree = "<group>"; };
 		67AC53762168FD1E00690727 /* AbbyyRtrSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AbbyyRtrSDK.framework; sourceTree = "<group>"; };
@@ -120,14 +125,14 @@
 			path = "../../Downloads/abbyy-rtr-sdk-1.0.8.26.iOS 3/assets";
 			sourceTree = "<group>";
 		};
-		07369D3921681E9D00240E4C /* License */ = {
+		07AC1545216D75A800818F81 /* License */ = {
 			isa = PBXGroup;
 			children = (
-				67AC53702168FCF400690727 /* LicenseAgreement.html */,
-				67AC536F2168FCE200690727 /* AbbyyRtrSdk.license */,
+				07AC1546216D75A800818F81 /* AbbyyRtrSdk.license */,
+				07AC1547216D75A800818F81 /* LicenseAgreement.html */,
 			);
 			name = License;
-			path = "../../Downloads/abbyy-rtr-sdk-1.0.8.26.iOS 3/License";
+			path = "../../Downloads/abbyy-rtr-sdk-1.0.8.26.iOS 4/License";
 			sourceTree = "<group>";
 		};
 		43BC85AC1DA31E2800FC04B0 = {
@@ -136,7 +141,7 @@
 				67AC538421692D3300690727 /* European.rom */,
 				67AC538221692D2D00690727 /* FindText.rom */,
 				67AC538021692D2100690727 /* English.edc */,
-				07369D3921681E9D00240E4C /* License */,
+				07AC1545216D75A800818F81 /* License */,
 				07369CFF21681D6700240E4C /* assets */,
 				75CA77A11E6D7F4800750492 /* libs */,
 				43BC85B71DA31E2800FC04B0 /* TextCapture */,
@@ -170,6 +175,8 @@
 				43BC85BF1DA31E2800FC04B0 /* Assets.xcassets */,
 				43BC85C41DA31E2800FC04B0 /* Info.plist */,
 				CFF18E0A1F7101B9001A6DFF /* RTRProgressView.swift */,
+				07AC1540216D734500818F81 /* DeepLinkManager.swift */,
+				07AC1542216D74CE00818F81 /* DeepLinkType.swift */,
 			);
 			path = TextCapture;
 			sourceTree = "<group>";
@@ -264,8 +271,9 @@
 				CFF18E0C1F713A37001A6DFF /* TextCapture.RTRProgressView.xib in Resources */,
 				67AC537C216920C900690727 /* CodeConfirmation.storyboard in Resources */,
 				67AC537F2169215400690727 /* Main.storyboard in Resources */,
+				07AC1548216D75A800818F81 /* AbbyyRtrSdk.license in Resources */,
 				43BC85C01DA31E2800FC04B0 /* Assets.xcassets in Resources */,
-				67AC53712168FCF500690727 /* LicenseAgreement.html in Resources */,
+				07AC1549216D75A800818F81 /* LicenseAgreement.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,9 +305,11 @@
 				CFF18E0B1F7101B9001A6DFF /* RTRProgressView.swift in Sources */,
 				43BC85DD1DA4330200FC04B0 /* RTRHexColor.swift in Sources */,
 				43BC85BB1DA31E2800FC04B0 /* RTRViewController.swift in Sources */,
+				07AC1543216D74CE00818F81 /* DeepLinkType.swift in Sources */,
 				43BC85D01DA326F200FC04B0 /* RTRSelectedAreaView.swift in Sources */,
 				43BC85B91DA31E2800FC04B0 /* RTRAppDelegate.swift in Sources */,
 				67AC537D216920C900690727 /* CodeConfirmationViewController.swift in Sources */,
+				07AC1541216D734500818F81 /* DeepLinkManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
